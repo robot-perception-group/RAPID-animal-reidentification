@@ -86,7 +86,7 @@ Dataset-query splits are accessible here: [RAPID Test Dataset](https://doi.org/1
 
 
 ### :gear: How to install
-1. At the top of the page, click on `Code`, then `Download ZIP` and extract the file. Another option is, if you have git installed, to navigate to your desired folder in cmd and:
+1. Simply click [here](https://github.com/robot-perception-group/RAPID-animal-reidentification/archive/refs/heads/main.zip) to download the code in a .zip file and extract it. Another option is, if you have git installed, to navigate to your desired folder in cmd and:
    `git clone https://github.com/robot-perception-group/Real-time_Animal_reID.git`
 2. Go to `scripts` folder and double-click on `install_on_windows` to install RAPID (if needed, right-click, and run as administrator). That's all, you are all set.
 
@@ -132,7 +132,7 @@ section helps you to rename your images, if they are named differently. We provi
 
 
 ### :gear: How to install
-1. At the top of the page, click on `Code`, then `Download ZIP` and extract the file. Another option is, if you have git installed, to navigate to your desired folder in terminal and:
+1. Simply click [here](https://github.com/robot-perception-group/RAPID-animal-reidentification/archive/refs/heads/main.zip) to download the code in a .zip file and extract it. Another option is, if you have git installed, to navigate to your desired folder in terminal and:
    `git clone https://github.com/robot-perception-group/Real-time_Animal_reID.git`
 2. Go to `scripts` directory, right click and `open a terminal`, so you see `.../scripts$`
 3. In terminal, type: `chmod +x install_on_linux.sh`
