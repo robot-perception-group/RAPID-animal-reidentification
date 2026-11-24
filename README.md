@@ -87,7 +87,7 @@ Dataset-query splits are accessible here: [RAPID Test Dataset](https://doi.org/1
 
 ### :gear: How to install
 1. Simply click [here](https://github.com/robot-perception-group/RAPID-animal-reidentification/archive/refs/heads/main.zip) to download the code in a .zip file and extract it. Another option is, if you have git installed, to navigate to your desired folder in cmd and:
-   `git clone https://github.com/robot-perception-group/Real-time_Animal_reID.git`
+      `git clone https://github.com/robot-perception-group/RAPID-animal-reidentification.git`
 2. Go to `scripts` folder and double-click on `install_on_windows` to install RAPID (if needed, right-click, and run as administrator). That's all, you are all set.
 
 ### :rocket: How to run (try the demo)
@@ -133,7 +133,7 @@ section helps you to rename your images, if they are named differently. We provi
 
 ### :gear: How to install
 1. Simply click [here](https://github.com/robot-perception-group/RAPID-animal-reidentification/archive/refs/heads/main.zip) to download the code in a .zip file and extract it. Another option is, if you have git installed, to navigate to your desired folder in terminal and:
-   `git clone https://github.com/robot-perception-group/Real-time_Animal_reID.git`
+      `git clone https://github.com/robot-perception-group/RAPID-animal-reidentification.git`
 2. Go to `scripts` directory, right click and `open a terminal`, so you see `.../scripts$`
 3. In terminal, type: `chmod +x install_on_linux.sh`
 4. To install RAPID, type: `./install_on_linux.sh`
@@ -148,7 +148,7 @@ When using your own data, do the same, but provide folder paths pointing to your
     1. Provide database and query paths in `.../config/config_RAPID.yaml` (or `config_FalseTagFinder.yaml`)
     2. Save changes
 2. **Activate virtual environment**
-    1. In `Real-time_Animal_reID` directory open a terminal, so you see `.../Real-time_Animal_reID$`
+    1. In the `RAPID-animal-reidentification` directory (`RAPID-animal-reidentification-main` if you downloaded the ZIP) open a terminal, so you see `.../RAPID-animal-reidentification$`
     2. In terminal: `source .venv/bin/activate`, as a result, you should see `(.venv)` at the beginning of the command
        line
 3. **Run**
@@ -164,7 +164,7 @@ section helps you to rename your images, if they are named differently. We provi
     2. Provide the paths in `.../config/config_Rename.yaml`
     3. Save changes
 2. **Activate virtual environment**
-    1. In `Real-time_Animal_reID` directory open a terminal, so you see `.../Real-time_Animal_reID$`
+    1. In the `RAPID-animal-reidentification` directory (`RAPID-animal-reidentification-main` if you downloaded the ZIP) open a terminal, so you see `.../RAPID-animal-reidentification$`
     2. In terminal: `source .venv/bin/activate`, as a result, you should see `(.venv)` at the beginning of the command
        line
 3. **Run**
