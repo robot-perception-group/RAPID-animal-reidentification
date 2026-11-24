@@ -91,7 +91,7 @@ Dataset-query splits are accessible here: [RAPID Test Dataset](https://doi.org/1
 2. Go to `scripts` folder and double-click on `install_on_windows` to install RAPID (if needed, right-click, and run as administrator). That's all, you are all set.
 
 ### :rocket: How to run (try the demo)
-You can use the demo images provided in `...\data\demo_database` and `...\data\demo_query` folders to quickly test the tool.\
+You can use the demo images provided in `...\data\demo\example_database` and `...\data\demo\example_query` folders to quickly test the tool.\
 When using your own data, do the same, but provide folder paths pointing to your own images.
 
 0. **Prepare images**
@@ -104,9 +104,9 @@ When using your own data, do the same, but provide folder paths pointing to your
 
 ### :rocket: How to rename images (try the demo)
 Note: images should be **_cropped bounding box images_**, and named as **_animalID_viewpoint_frameID.filetype_**. This
-section helps you to rename your images, if they are named differently. We provide demo data (`...\demo\example_rename` and `...\demo\examle_rename.xlsx`) to test renaming. 
+section helps you to rename your images, if they are named differently. We provide demo data (`...\demo\example_rename` and `...\demo\example_rename.xlsx`) to test renaming. 
 1. **Set config**
-    1. Prepare your metadata Excel or use the demo provided in `...\demo\rename_example.xlsx`
+    1. Prepare your metadata Excel or use the demo provided in `...data\demo\rename_example.xlsx`
     2. Provide the paths in `...\config\config_Rename.yaml`
     3. Save changes
 2. **Run**
@@ -139,7 +139,7 @@ section helps you to rename your images, if they are named differently. We provi
 4. To install RAPID, type: `./install_on_linux.sh`
 
 ### :rocket: How to run
-You can use the demo images provided in `.../data/demo_database` and `.../data/demo_query` folders to quickly test the tool.
+You can use the demo images provided in `.../data/demo/example_database` and `.../data/demo/example_query` folders to quickly test the tool.
 When using your own data, do the same, but provide folder paths pointing to your own images.
 
 0. **Prepare images**
@@ -160,7 +160,7 @@ When using your own data, do the same, but provide folder paths pointing to your
 Note: images should be **_cropped bounding box images_**, and named as **_animalID_viewpoint_frameID.filetype_**. This
 section helps you to rename your images, if they are named differently. We provide demo data (`...\demo\example_rename` and `...\demo\examle_rename.xlsx`) to test renaming.
 1. **Set config**
-    1. Prepare your metadata Excel or use the demo provided in `.../data/rename_example.xlsx`
+    1. Prepare your metadata Excel or use the demo provided in `.../data/demo/rename_example.xlsx`
     2. Provide the paths in `.../config/config_Rename.yaml`
     3. Save changes
 2. **Activate virtual environment**
